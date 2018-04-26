@@ -17,7 +17,7 @@ let secret_number = null;
 function generate_secret_number() {
 	secret_number =  Math.floor(Math.random() * (100 - 1)) + 1;
 	//#uncomment this if you want the answer but wanna test anyways
-	console.log(secret_number + " generated")
+	// console.log(secret_number + " generated")
 }
 generate_secret_number()
 
